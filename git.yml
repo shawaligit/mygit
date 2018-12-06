@@ -1,6 +1,7 @@
 ---
 - hosts: all
-  become: yes
+  become: True
+  become_user: root
   tasks:
   - name: des i am going install git on all nodes
     apt:
