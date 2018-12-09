@@ -3,6 +3,6 @@
    become: yes
    tasks:
     - name: install tree
-      apt: 
+      yum: 
        name: tree
        state: present 
