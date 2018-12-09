@@ -2,7 +2,7 @@
  - hosts: all
    become: yes
    tasks:
-    - name: install tree
+    - name: install app
       yum: 
-       name: tree
+       name: httpd
        state: present 
