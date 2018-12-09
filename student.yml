@@ -1,0 +1,8 @@
+---
+  - name: student dtl
+    phnum: 999999999
+    add: 305 plot
+    pin: 500003
+  - name: jani
+    phnum: 22222
+    add: 222
