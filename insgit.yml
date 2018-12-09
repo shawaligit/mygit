@@ -2,7 +2,7 @@
  - hosts: all
    become: yes
    tasks:
-    - name: install web
+    - name: install tree
       apt: 
-       name: apache2
+       name: tree
        state: present 
