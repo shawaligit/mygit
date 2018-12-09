@@ -1,6 +1,6 @@
 ---
  - hosts: all
-   became: yes
+   become: yes
    tasks:
     - name: install git
       apt: 
