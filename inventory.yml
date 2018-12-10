@@ -1,0 +1,15 @@
+---
+- hosts: webservers
+  become: yes
+  tasks:
+  - name: insall apache2 on ubuntu
+    apt:
+      name: apache2
+      state: present
+    when: ansible_os_family =="Debian"
+
+  - name: install httpd on redhat
+    yum:
+      name: http2
+      state: present
+    when: ansible_os_family =="Debian"
